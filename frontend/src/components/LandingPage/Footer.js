@@ -35,16 +35,16 @@ when an unknown printer took a galley of type and scrambled it to m
           Products
         </h6>
         <p className="mb-4">
-          <a href="#!" className="text-gray-600">Work</a>
+          <a href="#!" className="text-white">Work</a>
         </p>
         <p className="mb-4">
-          <a href="#!" className="text-gray-600">Know Us</a>
+          <a href="#!" className="text-white">Know Us</a>
         </p>
         <p className="mb-4">
-          <a href="#!" className="text-gray-600">Lorem</a>
+          <a href="#!" className="text-white">Lorem</a>
         </p>
         <p>
-          <a href="#!" className="text-gray-600">Pay</a>
+          <a href="#!" className="text-white">Pay</a>
         </p>
       </div>
       <div className="">
@@ -52,22 +52,22 @@ when an unknown printer took a galley of type and scrambled it to m
           Useful links
         </h6>
         <p className="mb-4">
-          <a href="#!" className="text-gray-600">Pricing</a>
+          <a href="#!" className="text-white">Pricing</a>
         </p>
         <p className="mb-4">
-          <a href="#!" className="text-gray-600">Settings</a>
+          <a href="#!" className="text-white">Settings</a>
         </p>
         <p className="mb-4">
-          <a href="#!" className="text-gray-600">Orders</a>
+          <a href="#!" className="text-white">Orders</a>
         </p>
         <p>
-          <a href="#!" className="text-gray-600">Help</a>
+          <a href="#!" className="text-white">Help</a>
         </p>
       </div>
       <div className="">
-        <h6 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
+        {/* <h6 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
           Contact
-        </h6>
+        </h6> */}
         <p className="flex items-center justify-center md:justify-start mb-4">
           <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="home"
             className="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
@@ -77,7 +77,7 @@ when an unknown printer took a galley of type and scrambled it to m
           </svg>
           Mumbai, Maharshtra
         </p>
-        <p className="flex items-center justify-center md:justify-start mb-4">
+        {/* <p className="flex items-center justify-center md:justify-start mb-4">
           <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope"
             className="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512">
@@ -86,8 +86,8 @@ when an unknown printer took a galley of type and scrambled it to m
             </path>
           </svg>
           weGuide@gmail.com
-        </p>
-        <p className="flex items-center justify-center md:justify-start mb-4">
+        </p> */}
+        {/* <p className="flex items-center justify-center md:justify-start mb-4">
           <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone"
             className="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512">
@@ -106,13 +106,21 @@ when an unknown printer took a galley of type and scrambled it to m
             </path>
           </svg>
           +91 9877653765
-        </p>
+        </p> */}
+        <div className="col-span-2 pt-8 pr-5 md:pt-2">
+                <p className="font-bold uppercase ">Subscribe to our Newsletter</p>
+                <p className="py-4">The latest news, articles, ans resources, sent to your inbox weekly.</p>
+                <form className="flex flex-col sm:flex-row">
+                    <input className="w-full p-2 mr-4 rounded-md mb-4" type="email" placeholder="Enter your email"/>
+                    <button className="p-2 mb-4 bg-zinc-100 text-blue-900 rounded-md font-semibold hover:bg-gray-100">Subscribe</button>
+                </form>
+        </div>
       </div>
     </div>
   </div>
   <div className="text-center p-6 bg-gray-200">
     <span>© 2022 Copyright: </span>
-    <a className="text-gray-600 font-semibold" >weGuide -Onwards and Upwards</a>
+    <a className="text-gray-600 font-semibold" >weGuide- Onwards and Upwards</a>
   </div>
 </footer>
   )
